@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="mx.udg.cuvalles.f.MainActivity">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:name="mx.udg.cuvalles.fragments.BlankFragment"
+        android:layout_weight="1"
+        android:id="@+id/frag1"
+        tools:layout="@layout/fragment_blank"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="mx.udg.cuvalles.fragments.BlankFragment2"
+        android:id="@+id/frag2"
+        tools:layout="@layout/fragment_blank_fragment2"/>
+
+</LinearLayout>
